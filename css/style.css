@@ -45,11 +45,17 @@ button {
     padding-left: 15px;
 }
 
-/** ==============HEADER================ */
+.section{
+padding-top: 120px;
+padding-bottom: 120px;
+}
+
+/* ==============HEADER================ */
 .header{
     background: #fff;
     padding-top: 24px;
     padding-bottom: 24px;
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .visually-hidden {
@@ -276,7 +282,7 @@ font-weight: 400;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
-        padding-bottom: 8px;
+        margin-bottom: 8px;
 }
 
 .team-members-speciality{
@@ -286,7 +292,7 @@ font-weight: 400;
         letter-spacing: 0.02em;
         text-align: center;
         color: #434455;
-        padding-bottom: 32px;
+        margin-bottom: 32px;
 }
 /** =============PRODUCTS================= */
 .products-section{
