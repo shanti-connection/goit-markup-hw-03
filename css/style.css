@@ -139,10 +139,10 @@ color: #404bbf
 
 .header-contact-link{
     font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
 .header-contact-link:hover,
@@ -241,6 +241,10 @@ font-weight: 400;
     margin-bottom: 72px;
 }
 
+.team-wrap{
+padding: 32px 0;
+}
+
 .team-section{
     background: #f4f4fd;
 }
@@ -258,17 +262,12 @@ font-weight: 400;
 
 .team-members-list{
     background-color: #FFFFFF;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     width: calc((100% - 3 * 24px) / 4);
     border-radius: 0px 0px 4px 4px;
 }
 
 .team-members-img{
     border-radius: 0 0 4px 4px;
-    padding: 0px 0px 32px 0px;
     width: 264px;
 }
 
@@ -289,14 +288,9 @@ font-weight: 400;
         letter-spacing: 0.02em;
         text-align: center;
         color: #434455;
-        margin-bottom: 32px;
-}
+        }
 /** =============PRODUCTS================= */
 
-.products-section{
-    padding-top: 64px;
-    padding-bottom: 120px;
-}
 .product-title{
     margin-bottom: 72px;
 }
