@@ -88,10 +88,7 @@ padding-bottom: 120px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    margin-top: 24px;
     margin-right: 76px;
-    margin-bottom: 24px;
-
 }
 
 .header-logo span{
@@ -101,6 +98,8 @@ padding-bottom: 120px;
 .header-navigation-list {
     display: flex;
     gap: 40px;
+    margin-top: 24px;
+    margin-bottom: 24px;
     }
 
 .menu-item{
